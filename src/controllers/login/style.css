@@ -1,7 +1,6 @@
 ﻿/* Login */
 .Login{
-  width:400px;
-  display:flex;
+  padding:5%;
 }
 .Login a{
   font-size:12px;
