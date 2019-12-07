@@ -1,6 +1,7 @@
 ﻿/* Login */
 .Login{
-
+  width:400px;
+  display:flex;
 }
 .Login a{
   font-size:12px;

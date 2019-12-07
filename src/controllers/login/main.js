@@ -4,12 +4,11 @@
 import Header from "../../skins/header.js";
 import Footer from "../../skins/footer.js";
 
-// Css global
-import "./../../App.css";
-// Css 
+// CSSs
+import "./../../App.css"; // Global
 import "./style.css";
 
-// Images
+// Others
 import Mascote from "../../assets/img/mascote.png"
 
 function Login() {
@@ -21,8 +20,8 @@ function Login() {
           <div class="Login">
               <p>Insira seus dados de acesso.</p>
               <form method="POST">
-                <input type="email" name="login" class="block"/>
-                <input type="password" name="pass" class="block"/>
+                <input type="email" name="login" class="block mr-1"/>
+                <input type="password" name="pass" class="block mr-1"/>
                 <button class="block">Acessar</button>
               </form>
               <div className="new_account">
